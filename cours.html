@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <title>Cours – VISION</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
     <header>
@@ -24,13 +24,16 @@
 
     <section class="hero">
         <h2>Liste des cours</h2>
+        <div class="separator"></div>
         <p>
             Explore les cours déposés par les étudiants.  
             Chaque carte représente un cours que tu pourras consulter en détail.
         </p>
     </section>
-
-    <section class="categories">
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Rechercher un cours...">
+    </div>
+    <section class="themes">
         <h3>Cours disponibles</h3>
 
         <div class="grid">
@@ -67,8 +70,31 @@
     </section>
 
     <footer>
-        © 2026 – VISION. Projet étudiant.
-    </footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>VISION</h4>
+                <p>Plateforme étudiante de partage de cours.</p>
+                <p>Créé par et pour les étudiants.</p>
+            </div>
 
+            <div class="footer-section">
+                <h4>Navigation</h4>
+                <div class="footer-nav-grid">
+                    <a href="index.html">Accueil</a>
+                    <a href="cours.html">Cours</a>
+                    <a href="about.html">À propos</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+
+
+            <div class="footer-section">
+                <h4>Informations</h4>
+                <p>Projet étudiant — Université de Poitiers</p>
+                <p>© 2026 VISION</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/search.js"></script>
 </body>
 </html>
