@@ -1,0 +1,19 @@
+VISION/
+│
+├── frontend/
+│   ├── index.html
+│   ├── cours.html
+│   ├── cours-detail.html
+│   ├── about.html
+│   ├── css/
+│   └── js/
+│
+├── backend/
+│   ├── app.js (ou main.py, ou server.ml)
+│   ├── routes/
+│   ├── controllers/
+│   ├── models/
+│   └── views/ (si templating)
+│
+└── database/
+    └── schema.sql

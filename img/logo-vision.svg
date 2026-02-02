@@ -1,0 +1,14 @@
+<svg width="180" height="50" viewBox="0 0 180 50" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond transparent -->
+  <rect width="180" height="50" fill="none"/>
+
+  <!-- Symbole "œil" stylisé -->
+  <ellipse cx="25" cy="25" rx="18" ry="10" fill="none" stroke="#38bdf8" stroke-width="2"/>
+  <circle cx="25" cy="25" r="4" fill="#38bdf8"/>
+
+  <!-- Texte VISION -->
+  <text x="50" y="31" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif"
+        font-size="22" font-weight="700" fill="#e2e8f0">
+    VISION
+  </text>
+</svg>
