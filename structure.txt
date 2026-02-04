@@ -1,19 +1,73 @@
+(** PARTIE FRONTEND **)
+
+CODE_Web/
+│
+├── index.html
+├── about.html
+├── contact.html
+├── cours.html
+├── cours-detail.html
+├── structure.txt
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   ├── cours-details.js
+│   └── search.js
+│
+└── img/
+    ├── favicon.ico
+    ├── favicon.ico:Zone.Identifier
+    └── logo-vision.svg
+    
+
+(** PARTIE BACKEND **)
+    
+backend/
+│
+├── public/
+│   ├── index.php
+│   ├── cours.php
+│   ├── cours-detail.php
+│   ├── admin.php
+│   └── assets/        (CSS, JS, images si besoin)
+│
+├── app/
+│   ├── Database.php
+│   ├── CourseController.php
+│   ├── AdminController.php
+│   ├── helpers.php
+│   └── models/
+│       └── Course.php
+│
+├── views/
+│   ├── header.php
+│   ├── footer.php
+│   ├── cours-list.php
+│   ├── cours-detail.php
+│   └── admin-dashboard.php
+│
+├── config/
+│   └── config.php
+│
+└── data/
+    └── migrations.sql
+
+(** PARTIE TOTAL **)
+
 VISION/
 │
-├── frontend/
-│   ├── index.html
-│   ├── cours.html
-│   ├── cours-detail.html
-│   ├── about.html
+├── CODE_Web/          (Frontend statique)
+│   ├── *.html
 │   ├── css/
-│   └── js/
+│   ├── js/
+│   └── img/
 │
-├── backend/
-│   ├── app.js (ou main.py, ou server.ml)
-│   ├── routes/
-│   ├── controllers/
-│   ├── models/
-│   └── views/ (si templating)
-│
-└── database/
-    └── schema.sql
+└── backend/           (Backend PHP dynamique)
+    ├── public/
+    ├── app/
+    ├── views/
+    ├── config/
+    └── data/
+
